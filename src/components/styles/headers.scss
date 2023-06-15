@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+
+    @media (min-width: 1000px) {
+        text-align: left;
+        margin-bottom: 120px;
+        margin-left: 140px;
+    }
+
+    h1 {
+        margin: 18px;
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: 600;
+        color: #363636;
+
+        span {
+            color: #FF8515;
+        }
+
+        @media (min-width: 1000px) {
+            margin-left: 0;
+        }
+    }
+
+    p {
+        margin: 0 18px 35px 18px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #000000;
+
+        @media (min-width: 1000px) {
+            margin-left: 0;
+        }
+    }
+}

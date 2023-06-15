@@ -1,0 +1,81 @@
+.list-container {
+    padding: 0 0 53px 44px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 303px;
+
+    @media (min-width: 450px) {
+        padding: 0 0 164px 56px;
+    }
+
+    @media (min-width: 730px) {
+        padding: 0 0 73px 140px;
+    }
+
+    .card {
+        width: 229px;
+        height: 270px;
+        border-radius: 30px;
+        background-color: #F9F6F6;
+        margin-right: 56px;
+        display: inline-block;
+        position: relative;
+        margin-top: 33px;
+        text-align: center;
+
+        img {
+            position: absolute;
+            height: 120px;
+            top: -33px;
+            right: -15px;
+        }
+
+        h3 {
+            margin: 111px 0 0 0;
+            font-size: 20px;
+            line-height: 65px;
+            font-weight: 700;
+            color: #363636;
+        }
+
+        h4 {
+            margin: 0;
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700;
+            color: #797979;
+        }
+
+        h5 {
+            margin: 15px 0 0 0;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #363636;
+
+            span {
+                color: #FF8515;
+            }
+        }
+
+        .basket {
+            width: 40px;
+            height: 40px;
+            background-color: #FFFFFF;
+            border-radius: 7px;
+            position: relative;
+            margin-left: 171px;
+            margin-top: -14px;
+            cursor: pointer;
+
+            img {
+                width: 20px;
+                height: 20px;
+                left: 10px;
+                top: 10px;
+            }
+        }
+
+    }
+}
